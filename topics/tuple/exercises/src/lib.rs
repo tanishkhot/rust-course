@@ -1,11 +1,17 @@
 pub fn first(t: (bool, u32, char)) -> bool {
-    todo!();
+    t.0
 }
 
 pub fn last(t: (bool, u32, char)) -> char {
-    todo!();
+    t.2
 }
 
 pub fn swap(t: (u32, u32)) -> (u32, u32) {
-    todo!();
+    (t.1, t.0)
+    // let mut x = t.0;
+    // let mut y = t.1;
+    // let temp = x;
+    // x = y;
+    // y = temp;
+    // (x, y)
 }
