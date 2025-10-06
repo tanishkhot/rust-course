@@ -1,11 +1,13 @@
 pub fn zeros() -> [u32; 100] {
-    todo!();
+    let arr:[u32; 100] = [0 ; 100];
+    return arr;
 }
 
 pub fn first_3(s: &[u32]) -> &[u32] {
-    todo!();
+    return &s[0..3];
 }
 
 pub fn last_3(s: &[u32]) -> &[u32] {
-    todo!();
+    let n = s.len();
+    return &s[n-3..n];
 }
